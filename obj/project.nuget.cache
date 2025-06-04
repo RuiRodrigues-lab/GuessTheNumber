@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UH3EK+M/q9TnYP68yHHczGylv9KMc+dDaOtfFZtPyvUS1oNvzXS2rzY7wTVv53dZWylU9OASI6vXWYrYG48wSw==",
+  "dgSpecHash": "ifWgh9wiDeibqq7s9DTivzP9T2+XArHo46/g8MndxvLLOiWUEUDFvburvEED1oYM+rpNL8Y1FrZQNF0wjrA3SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj",
+  "projectFilePath": "c:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

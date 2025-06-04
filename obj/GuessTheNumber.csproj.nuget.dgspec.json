@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj": {}
+    "c:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj": {
+    "c:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj",
+        "projectUniqueName": "c:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj",
         "projectName": "GuessTheNumber",
-        "projectPath": "C:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj",
+        "projectPath": "c:\\Users\\Rui Rodrigues\\GuessTheNumber\\GuessTheNumber.csproj",
         "packagesPath": "C:\\Users\\Rui Rodrigues\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rui Rodrigues\\GuessTheNumber\\obj\\",
+        "outputPath": "c:\\Users\\Rui Rodrigues\\GuessTheNumber\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rui Rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",

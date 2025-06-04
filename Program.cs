@@ -3,23 +3,33 @@
 // Guess the Number Game
 class Program
 {
+    const int MinNumber = 1;
+    const int MaxNumber = 100;
+
     static void Main(string[] args)
     {
+        do
+        {
+            PlayGame();
+        } while (AskToPlayAgain());
+    }
+
+    static void PlayGame()
+    {
         Random random = new Random();
-        int numberToGuess = random.Next(1, 101); // 1 to 100
-        int userGuess = 0;
+        int numberToGuess = random.Next(MinNumber, MaxNumber + 1);
         int attempts = 0;
+        int userGuess = 0;
 
-        Console.WriteLine("Welcome to Guess the Number!");
-        Console.WriteLine("I'm thinking of a number between 1 and 100.");
+        Console.WriteLine($"Welcome to Guess the Number!\nI'm thinking of a number between {MinNumber} and {MaxNumber}.");
 
-        while (userGuess != numberToGuess)
+        while (true)
         {
             Console.Write("Enter your guess: ");
             string input = Console.ReadLine();
-            if (!int.TryParse(input, out userGuess))
+            if (!int.TryParse(input, out userGuess) || userGuess < MinNumber || userGuess > MaxNumber)
             {
-                Console.WriteLine("Please enter a valid number.");
+                Console.WriteLine($"Please enter a valid number between {MinNumber} and {MaxNumber}.");
                 continue;
             }
             attempts++;
@@ -33,8 +43,16 @@ class Program
             }
             else
             {
-                Console.WriteLine($"Congratulations! You guessed the number in {attempts} attempts.");
+                Console.WriteLine($"Congratulations! You guessed the number in {attempts} attempts.\n");
+                break;
             }
         }
+    }
+
+    static bool AskToPlayAgain()
+    {
+        Console.Write("Would you like to play again? (y/n): ");
+        string response = Console.ReadLine();
+        return response.Trim().ToLower() == "y";
     }
 }
